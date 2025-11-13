@@ -20,7 +20,7 @@ export default function romanToInt(roman: string) {
   return  result
 }
 
-const romanNumerals: { [Key: string]: number } = {
+const romanNumerals = {
   I: 1,
   V: 5,
   X: 10,
@@ -29,8 +29,6 @@ const romanNumerals: { [Key: string]: number } = {
   D: 500,
   M: 1000,
 };
-
-
 
 //usage
 console.log(romanToInt("IV"));
